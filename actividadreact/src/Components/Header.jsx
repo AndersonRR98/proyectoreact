@@ -1,8 +1,7 @@
+import './Header.css';
+
 function Header() {
-  return (
-    <header style={{ background: "#282c34", padding: "10px", color: "white" }}>
-      <h2>Mi Aplicación de Usuarios</h2>
-    </header>
-  );
+  return <h1 className="header">Atletico Nacional</h1>; 
+  
 }
 export default Header;
